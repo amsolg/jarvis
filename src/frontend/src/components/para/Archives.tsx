@@ -10,7 +10,8 @@ import {
   TextInput,
   ActionIcon,
   Menu,
-  Select
+  Select,
+  Button
 } from '@mantine/core';
 import { archivesService } from '../../services/paraService';
 import { mockArchives } from '../../mock/mockData';
@@ -148,7 +149,7 @@ export function Archives() {
                         </Badge>
                       ))}
                     </div>
-                    <Button compact variant="subtle">View Details</Button>
+                    <Button variant="subtle" size="sm">View Details</Button>
                   </Group>
                 </Card>
               </Grid.Col>

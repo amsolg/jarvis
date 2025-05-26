@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { TextInput, PasswordInput, Button, Group, Box, Title, Text, Anchor, Alert } from '@mantine/core';
 import { useForm } from '@mantine/form';
-import { authService, LoginCredentials } from '../../services/authService';
+import { authService } from '../../services/authService';
+import type { LoginCredentials } from '../../services/authService';
 
 interface LoginProps {
   onSuccess: () => void;
@@ -70,7 +71,7 @@ export function Login({ onSuccess, onRegisterClick }: LoginProps) {
           {...form.getInputProps('password')}
         />
         
-        <Group mt="lg" justify="space-between">
+        <Group mt="lg" position="apart">
           <Anchor 
             component="button" 
             type="button" 

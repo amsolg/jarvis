@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { MantineProvider, AppShell, LoadingOverlay } from '@mantine/core';
+import { MantineProvider } from '@mantine/core';
 import './App.css';
 
 // Layout
@@ -52,14 +52,21 @@ function App() {
     return (
       <MantineProvider>
         <div style={{ height: '100vh', position: 'relative' }}>
-          <LoadingOverlay visible={true} />
+          <div style={{ 
+            position: 'absolute', 
+            top: '50%', 
+            left: '50%', 
+            transform: 'translate(-50%, -50%)'
+          }}>
+            Loading...
+          </div>
         </div>
       </MantineProvider>
     );
   }
 
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
+    <MantineProvider>
       <BrowserRouter>
         {!isAuthenticated ? (
           <Routes>

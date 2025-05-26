@@ -183,7 +183,7 @@ export function Dashboard() {
               <Skeleton height={200} />
             ) : (
               <Timeline active={0}>
-                {mockRecentActivity.map((activity, index) => (
+                {mockRecentActivity.map((activity) => (
                   <Timeline.Item
                     key={activity.id}
                     bullet={<Avatar size={22} src={mockUser.avatar} radius="xl" />}
