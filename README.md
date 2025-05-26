@@ -21,7 +21,36 @@ Pensieve features "Jarvis," a context-aware persona designed to help you manage 
 
 ## Getting Started
 
-*Documentation for installation and setup will be added as the project develops.*
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Development Setup
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/amsolg/pensieve.git
+   cd pensieve
+   ```
+
+2. Install dependencies
+   ```bash
+   # Future command when package.json is added
+   # npm install
+   ```
+
+3. Run development server
+   ```bash
+   # Future command when development scripts are added
+   # npm run dev
+   ```
+
+### Documentation
+
+- [Development Plan](DEVELOPMENT_PLAN.md) - Detailed tasks for MVP development
+- [Architecture](ARCHITECTURE.md) - Technical architecture and design
+- [Contributing Guidelines](CONTRIBUTING.md) - How to contribute to the project
 
 ## Contributing
 
