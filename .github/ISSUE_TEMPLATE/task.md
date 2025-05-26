@@ -1,6 +1,6 @@
 ---
 name: Task
-about: Create a development task for Pensieve MVP
+about: Create a development task for Jarvis MVP
 title: '[TASK] '
 labels: 'task, mvp'
 assignees: ''

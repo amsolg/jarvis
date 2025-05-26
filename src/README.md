@@ -1,6 +1,6 @@
 # Source Code
 
-This directory contains the application source code for Pensieve.
+This directory contains the application source code for Jarvis.
 
 ## Structure
 

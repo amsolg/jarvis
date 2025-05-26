@@ -1,6 +1,6 @@
 # API
 
-This directory contains the API definitions and endpoints for Pensieve.
+This directory contains the API definitions and endpoints for Jarvis.
 
 ## Purpose
 

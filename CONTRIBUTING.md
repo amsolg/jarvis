@@ -1,6 +1,6 @@
-# Contributing to Pensieve
+# Contributing to Jarvis
 
-Thank you for your interest in contributing to Pensieve! This document provides guidelines and instructions for contributing to this project.
+Thank you for your interest in contributing to Jarvis! This document provides guidelines and instructions for contributing to this project.
 
 ## Code of Conduct
 
@@ -120,9 +120,8 @@ When submitting a pull request:
 
 1. All code changes require a pull request
 2. At least one maintainer must approve the PR
-3. All CI checks must pass before merging
-4. Feedback should be addressed before merging
+3. Feedback should be addressed before merging
 
 ## License
 
-By contributing to Pensieve, you agree that your contributions will be licensed under the project's license.
+By contributing to Jarvis, you agree that your contributions will be licensed under the project's license.

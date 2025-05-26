@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest a feature for Pensieve
+about: Suggest a feature for Jarvis
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''

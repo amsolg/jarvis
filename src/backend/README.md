@@ -1,6 +1,6 @@
 # Backend
 
-This directory contains the server-side logic for Pensieve.
+This directory contains the server-side logic for Jarvis.
 
 ## Purpose
 
