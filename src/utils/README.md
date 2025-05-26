@@ -1,6 +1,6 @@
 # Utilities
 
-This directory contains shared utility functions and helpers for Pensieve.
+This directory contains shared utility functions and helpers for Jarvis.
 
 ## Purpose
 

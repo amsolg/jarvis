@@ -1,10 +1,10 @@
-# Pensieve Architecture
+# Jarvis Architecture
 
-This document outlines the architectural design of Pensieve, an app for interacting with a personal knowledge base.
+This document outlines the architectural design of Jarvis, an app for interacting with a personal knowledge base.
 
 ## Repository Layout
 
-Pensieve's repository is organized into two primary sections:
+Jarvis's repository is organized into two primary sections:
 
 1. **Codebase**
    - `/src`: Application source code
@@ -113,7 +113,7 @@ When not actively engaged with the user, Jarvis performs background processing:
 
 ## Interaction Modes
 
-Pensieve supports two primary interaction modes:
+Jarvis supports two primary interaction modes:
 
 ### Text Interaction
 - Chat interface for direct queries and commands

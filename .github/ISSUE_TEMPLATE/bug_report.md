@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a bug in Pensieve
+about: Report a bug in Jarvis
 title: '[BUG] '
 labels: bug
 assignees: ''

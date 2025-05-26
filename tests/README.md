@@ -1,6 +1,6 @@
 # Tests
 
-This directory contains test suites for Pensieve.
+This directory contains test suites for Jarvis.
 
 ## Structure
 

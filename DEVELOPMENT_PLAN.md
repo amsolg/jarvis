@@ -1,6 +1,6 @@
-# Pensieve MVP Development Plan
+# Jarvis MVP Development Plan
 
-This document outlines the detailed tasks required to deliver the Minimum Viable Product (MVP) for Pensieve, an app for interacting with a personal knowledge base.
+This document outlines the detailed tasks required to deliver the Minimum Viable Product (MVP) for Jarvis, an app for interacting with a personal knowledge base.
 
 ## 1. Project Setup
 
@@ -15,13 +15,6 @@ This document outlines the detailed tasks required to deliver the Minimum Viable
   - Define branching strategy (main/dev/feature branches)
   - Create branch protection rules for main branch
   - Configure commit message standards
-
-### CI/CD Pipeline
-- [ ] Set up GitHub Actions workflow
-  - Configure linting checks
-  - Set up automated tests
-  - Configure build process
-  - Implement deployment pipeline for staging environments
 
 ### Development Standards
 - [ ] Create CONTRIBUTING.md with coding standards
@@ -241,16 +234,16 @@ This document outlines the detailed tasks required to deliver the Minimum Viable
 
 ## 7. Deployment
 
-### Staging Environment
-- [ ] Configure staging environment
-  - Set up infrastructure
-  - Configure environment variables
-  - Set up database for staging
+### Local Environment Setup
+- [ ] Document local environment setup
+  - Create detailed setup instructions
+  - Document required environment variables
+  - Document database setup process
 
-- [ ] Implement deployment process
-  - Create deployment scripts
-  - Set up automated staging deployments
-  - Document rollback procedures
+- [ ] Create local testing procedures
+  - Document manual testing processes
+  - Create test data generation scripts
+  - Outline test reporting guidelines
 
 ### Production Readiness
 - [ ] Perform security audit
