@@ -1,0 +1,27 @@
+/* App.css - Styles for the Jarvis frontend */
+
+/* Authentication screens */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Dashboard styles */
+.stats-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsive tweaks */
+@media screen and (max-width: 768px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
